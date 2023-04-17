@@ -1,5 +1,7 @@
 .heading {
     background-image: url("../img/h_img.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 h1 {text-align: center; color: #f5f1f1;}
 h2 {text-align: center;}
@@ -19,3 +21,8 @@ img.mouse {
   }
 
 p.a {text-align-last: center;}
+.serv {
+    background-image: url("../img/s_image.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
