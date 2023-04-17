@@ -2,10 +2,17 @@ div{
     background-image: url("../img/h_img.jpg");
 }
 h1 {text-align: center; color: #f5f1f1;}
+h2 {text-align: center;}
 h6 {text-align: center; color: #f8f5f5;}
-img {
+img.logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 5%;
+  }
+img.mouse {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2%;
   }
