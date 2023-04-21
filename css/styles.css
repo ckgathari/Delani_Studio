@@ -27,3 +27,9 @@ p.a {text-align-last: center;}
     background-repeat: no-repeat;
     background-size: auto;
 }
+.contactus {
+    background-image: url(../img/c_image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+}
