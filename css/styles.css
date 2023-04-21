@@ -33,3 +33,15 @@ p.a {text-align-last: center;}
     background-attachment: fixed;
     background-size: auto;
 }
+
+.column-s {
+    float: right;
+    width: 8.33%;
+    padding: 0.5px;
+  }
+
+.row-s::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
