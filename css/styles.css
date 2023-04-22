@@ -30,8 +30,11 @@ p.a {text-align-last: center;}
 .contactus {
     background-image: url(../img/c_image.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: auto;
+    opacity: 1;
+}
+form {
+    box-shadow: #f5f1f1;
 }
 
 .column-s {
@@ -44,4 +47,13 @@ p.a {text-align-last: center;}
     content: "";
     clear: both;
     display: table;
+}
+.center {
+    margin: auto;
+    width: 80%;
+    padding: 100px;
+  }
+footer {
+    text-align: center;
+    padding: 3px;    
   }
