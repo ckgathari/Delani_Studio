@@ -4,6 +4,7 @@
     background-size: auto;
 }
 h1 {text-align: center; color: #f5f1f1;}
+h3 {text-align: center; color: #fff;}
 h2 {text-align: center;}
 h6 {text-align: center; color: #f8f5f5;}
 #servi {text-align-last: center; color: #f5f1f1;}
@@ -27,14 +28,39 @@ p.a {text-align-last: center;}
     background-repeat: no-repeat;
     background-size: auto;
 }
+
+.container-what-we-do{
+    text-align: center;
+    padding-top: 30px;
+    height: 400px;
+}
+
+.hidden1 {
+    display: none;
+}
+
+.hidden2 {
+    display: none;
+}
+ .hidden3 {
+     display: none;
+ }
+ 
 #contactus {
     background-image: url(../img/c_image.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
-    opacity: 1;
+    background-size: auto;    
 }
-form {
-    box-shadow: #f5f1f1;
+
+textarea {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.form-control {
+    background: transparent;
+    border: 1px solid #fff;
+    
 }
 
 .column-s {
@@ -57,11 +83,3 @@ footer {
     text-align: center;
     padding: 3px;    
   }
-textarea {
-    background: transparent;
-    color: #fff;
-    border: 1px solid #fff;
-}
-.form-control {
-    background: transparent;
-}

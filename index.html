@@ -21,7 +21,7 @@
 </div>
 <br><br>
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <h2>ABOUT US</h2>
             <P class="a">When you work with us, you are part of a team of committed collaborators. All aspects of our Software development process are integrated, interactive and agile. </P><br> 
             <p class="a">Our approach unifies design, development and product management to create exceptional products.</p> 
@@ -36,32 +36,39 @@
         <br><br><br>
     </div>
 <br><br><br>
-<h2 class="text-center">WHAT WE DO</h2><br>
-<div class="row row-cols-3 g-4">
-    <div id="design" class="col-sm-6 col-md-4">
-        <div class="card mb-3" style="width: 18rem;">            
-            <div class="card-body">
-                <img src="./assets/services_icons/design_icon.png" alt="design_icon">
-                <h5 class="card-title">Design</h5>             
+<div class="container-what-we-do">
+    <h1 id="what-we-do-h1">
+        WHAT WE DO
+    </h1><br/><br/>
+    <div class="row">
+        <div class="col-md-4">
+            <div id="col-md-4-1">
+            <img class="img1" src="./assets/services_icons/design_icon.png"><br/>
+            <h5>DESIGN</h5>
+            <p class="hidden1">
+                Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows solicit user feedback, and work with you to make sure what gets built is what is needed.
+            </p>
             </div>
         </div>
-    </div>
-    <div class="col-sm-6 col-md-4">
-        <div class="card mb-3" style="width: 18rem;">            
-            <div class="card-body">
-                <img src="./assets/services_icons/dev_icon.png" alt="dev_icon">
-                <h5 class="card-title">Development</h5>             
+        <div class="col-md-4">
+            <div id="col-md-4-2">
+            <img class="img2" src="./assets/services_icons/dev_icon.png"><br/>
+            <h5>DEVELOPMENT</h5>
+            <p class="hidden2">
+                All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
+            </p>
             </div>
         </div>
-    </div>
-    <div class="col-sm-6 col-md-4">
-        <div class="card mb-3" style="width: 18rem;">            
-            <div class="card-body">
-                <img src="./assets/services_icons/product_icon.png" alt="product_icon">
-                <h5 class="card-title">Product</h5>             
+        <div class="col-md-4">
+            <div id="col-md-4-3">
+            <img class="img3" src="./assets/services_icons/product_icon.png"><br/>
+            <h5>PRODUCT MANAGEMENT</h5>
+            <p class="hidden3">
+                Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business requirements eveolve.
+            </p>
             </div>
         </div>
-    </div>
+    </div>    
 </div>
 <br><br>
 <h2 class="text-center">PORTIFOLIO</h2>
@@ -96,14 +103,14 @@
 </div>
 <br><br>
 <div class=fa fa-lock id="contactus" >    
-<h2 class="text-center">CONTACT US</h2><br>
+<h3 class="text-center">CONTACT US</h3><br>
 <div class="center">
 <form>
     <div class="row">
-      <div class="col-4">
+      <div class="col-6">
         <input type="text" class="form-control"  placeholder="Name...">
       </div>
-      <div class="col-4">
+      <div class="col-6">
         <input type="email" class="form-control" placeholder="Email...">
       </div>
     </div>
