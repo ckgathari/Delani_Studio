@@ -27,7 +27,7 @@ p.a {text-align-last: center;}
     background-repeat: no-repeat;
     background-size: auto;
 }
-.contactus {
+#contactus {
     background-image: url(../img/c_image.jpg);
     background-repeat: no-repeat;
     background-size: auto;
@@ -57,3 +57,11 @@ footer {
     text-align: center;
     padding: 3px;    
   }
+textarea {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.form-control {
+    background: transparent;
+}

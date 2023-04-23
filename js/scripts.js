@@ -45,3 +45,4 @@ $("#portfolio8").hover(function() {
 }, function() {
     $(this).css('cursor','auto');
 });
+
