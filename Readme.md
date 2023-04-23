@@ -26,6 +26,7 @@ HOW IT WORKS: The Jquery functions in the business logic interacts with UI logic
 
 The webpage can be launched using any of the modern browser either through a computer, tablet or phone as it is responsive. 
 It can be set up via local environment but it has also been hosted in GITHUB pages and can be accessed via link
+https://ckgathari.github.io/Studio-project/
 
 ## Author
 
