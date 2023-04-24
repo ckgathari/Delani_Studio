@@ -66,3 +66,17 @@ $("#portfolio8").hover(function() {
     $(this).css('cursor','auto');
 });
 
+var form = document.getElementByID('form')
+
+form.addEventListener('submit',function(event){
+	event.preventDefault()
+	
+var username = document.getElementById('username').value
+
+console.log(username)
+
+var email = document.getElementById('email').value
+
+console.log(email)
+
+})
